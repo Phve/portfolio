@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mbytes YouTube Video Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Mbytes YouTube Video Downloader</h1>
+            <p>A powerful, yet simple tool for downloading YouTube videos.</p>
+            <a href="#input-section" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Why Choose This Downloader?</h2>
+        <div class="features-container">
+            <div class="feature">
+                <div class="icon">🎥</div>
+                <h3>Highest Quality Downloads</h3>
+                <p>Automatically selects and downloads the best resolution available for any video.</p>
+            </div>
+            <div class="feature">
+                <div class="icon">⚙️</div>
+                <h3>Simple to Use</h3>
+                <p>Built using Python, leveraging Pytube and Tkinter for simplicity.</p>
+            </div>
+            <div class="feature">
+                <div class="icon">🖥️</div>
+                <h3>User-Friendly Interface</h3>
+                <p>Designed for ease of use, even for those who aren't well versed with computers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Input Section (New Section) -->
+    <section id="input-section">
+        <h2>Download Your Video</h2>
+        <form id="download-form">
+            <label for="video-url">YouTube Video URL:</label>
+            <input type="text" id="video-url" name="video-url" placeholder="Enter YouTube URL here" required>
+
+            <label for="save-location">Save Location:</label>
+            <input type="text" id="save-location" name="save-location" placeholder="Enter save location here" required>
+
+            <button type="button" onclick="downloadVideo()">Download Video</button>
+        </form>
+        <p id="download-status"></p>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo">
+        <h2>See It In Action</h2>
+        <video controls loop autoplay muted>
+            <source src="C:/Users/user/Desktop/PORTFOLIO/videos/demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <a href="#input-section" class="btn">Try It Now</a>
+    </section>
+    
+    <!-- Technical Details Section -->
+    <section id="technical-details">
+        <h2>Under the Hood</h2>
+        <p>Mbytes YouTube Video Downloader is a Python-based tool that uses Pytube to interact with YouTube's API, allowing you to download videos in MP4 format at the highest available resolution. Tkinter provides a straightforward interface for selecting download locations. The project is fully open-source, making it easy to customize or extend.</p>
+        <a href="https://github.com/phve/portfolio" class="btn">Explore the Code on GitHub</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Mbytes YouTube Video Downloader. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/phve/portfolio">GitHub</a>
+            <a href="https://www.linkedin.com/in/ashton-muiru-03b095265/">LinkedIn</a>
+            <a href="ashtonmuiru@gmail.com">Email</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

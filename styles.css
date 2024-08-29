@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#hero {
+    background: url('C:\Users\admin\OneDrive\Desktop\PORTFOLIO/background.jpg.png') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #ff4500;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #ff5722;
+}
+
+#features {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    max-width: 300px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#demo {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+video {
+    max-width: 80%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#technical-details {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#technical-details p {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+#challenges {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#challenges img {
+    max-width: 45%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#testimonials {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.testimonial {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#next-steps {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+#input-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#download-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#download-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#download-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#download-form button {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#download-form button:hover {
+    background-color: #ff5722;
+}
+
+#download-status {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
